@@ -1,0 +1,109 @@
+.logo1{
+    margin-left: 6%;
+    position: absolute;
+    z-index: 2;
+    width:16%;
+}
+.Drop{
+    margin-top: 6%;
+    background-color: rgba(134, 4, 170, 0.1);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.DropSection{
+    background-color: rgba(134, 4, 170, 0.1);
+    position: relative;
+    display: inline-block;
+    z-index: 100;
+    width: 18%;
+    border: none;
+    border-radius: 30px;
+    font-size: 2em;
+    height: 40%;
+}
+.Dropbutton{
+    background: rgba(175, 208, 214, 0.5);
+    color: white;
+    padding: 16px;
+    font-size: .75em;
+    border: none;
+    border-radius: 30px;
+    font-family: fantasy;
+    z-index: 100;
+    width: 100%;
+}
+.Dropbutton1 {
+    background: rgba(175, 208, 214, 0.3);
+    color: white;
+    padding: 16px;
+    font-size: 0.69em;
+    border: none;
+    border-radius: 30px;
+    display: none;
+    z-index: 100;
+    width: 91%;
+    position:fixed;
+    left: 4%;
+    overflow: auto;
+}
+.DropSection:hover .Dropbutton1{
+    display: block;}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.BoxLong2About{
+    margin-top: 25%;
+    width: 100%;
+    height: 70px;
+    background: rgba(191, 182, 187, 0.33);
+    border-radius: 30px;
+    z-index: 0;
+}
+
+.project_topbox{
+    width: 100%;
+    height: 10%;
+    font-size: 32px;
+    color: #36393B;
+    display: flex;
+}
+.project_img{
+    width: 33%;
+}
+.img_fit{
+    width: 100%;
+}
+.project_text{
+    padding: 1%;
+    width: 66%;
+}
+.project_bottombox{
+    width: 100%;
+    height: 5%;
+    font-size: 32px;
+    color: #36393B;
+}
+
+.backdrop{
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    color: rgba(255, 255, 255, 0.66);
+    position: fixed;
+    z-index: 1;
+    line-height: 500px;
+
+}

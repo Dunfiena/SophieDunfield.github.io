@@ -1,0 +1,99 @@
+/* Landing Page CSS*/
+.call{
+    margin-left: 50%;
+    font-family: 'Avenir Next LT Pro', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.3125em;
+    line-height: 60px;
+    color: #36393B;
+    margin-top:8%;
+
+}
+.call2{
+    margin-left: 0.5%;
+    margin-top: 2%;
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20vw;
+    line-height: 350px;
+    color: rgba(255, 255, 255, 0.66);
+    position: absolute;
+    z-index: 1;
+}
+.call3{
+    margin-left: 17%;
+    font-family: 'Avenir Next LT Pro', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.3125em;
+    line-height: 100%;
+    color: #36393B;
+    margin-top: 18%;
+    margin-bottom: 5%;
+}
+.logo{
+    margin-left: 6%;
+    position: relative;
+    z-index: 2;
+    width: 20%;
+}
+.box1{
+    margin-bottom: 18%;
+}
+.box2{
+    margin-bottom: 0;
+}
+.button{
+    width: 33%;
+    margin-left: 50%;
+    height: 150px;
+    background: rgba(191, 182, 187, 0.33);
+    border-radius: 34px;
+    font-family: 'Avenir Next LT Pro', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.66);
+    text-align: center;
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .button{
+        width: 33%;
+    }
+    .links{
+        font-size: 3vw;
+        line-height: 150%;
+        margin-left: 66%;
+        display: flex;
+        padding-right: 0;
+    }
+    hr{
+        margin-left: 73%;
+        width: 15%;
+    }
+    .call3{
+        margin-top: 25%;
+    }
+    .BottomName{
+        padding-left: 60%;
+    }
+}
+@media only screen and (max-width: 650px) {
+
+    .links{
+        margin-left: 66%;
+        display: flex;
+        padding-right: 0;
+    }
+
+    .call3{
+        margin-top: 30%;
+    }
+}
