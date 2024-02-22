@@ -4,20 +4,19 @@
     font-family: 'Avenir Next LT Pro', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 4.3125em;
-    line-height: 60px;
+    font-size: 4vw;
+    line-height: 0;
     color: #36393B;
-    margin-top:8%;
+    margin-top:6%;
 
 }
 .call2{
     margin-left: 0.5%;
-    margin-top: 2%;
     font-family: 'Merriweather', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20vw;
-    line-height: 350px;
+    font-size: 15vw;
+    line-height: 16vw;
     color: rgba(255, 255, 255, 0.66);
     position: absolute;
     z-index: 1;
@@ -27,11 +26,9 @@
     font-family: 'Avenir Next LT Pro', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 4.3125em;
-    line-height: 100%;
+    font-size: 4vw;
     color: #36393B;
     margin-top: 18%;
-    margin-bottom: 5%;
 }
 .logo{
     margin-left: 6%;
@@ -45,39 +42,8 @@
 .box2{
     margin-bottom: 0;
 }
-.button{
-    width: 33%;
-    margin-left: 50%;
-    height: 150px;
-    background: rgba(191, 182, 187, 0.33);
-    border-radius: 34px;
-    font-family: 'Avenir Next LT Pro', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 48px;
-    color: rgba(255, 255, 255, 0.66);
-    text-align: center;
-    margin-bottom: 40px;
-    text-decoration: none;
-}
 
-@media only screen and (max-width: 1000px) {
-
-    .button{
-        width: 33%;
-    }
-    .links{
-        font-size: 3vw;
-        line-height: 150%;
-        margin-left: 66%;
-        display: flex;
-        padding-right: 0;
-    }
-    hr{
-        margin-left: 73%;
-        width: 15%;
-    }
+@media only screen and (max-width: 768px) {
     .call3{
         margin-top: 25%;
     }
@@ -85,15 +51,11 @@
         padding-left: 60%;
     }
 }
-@media only screen and (max-width: 650px) {
-
-    .links{
-        margin-left: 66%;
-        display: flex;
-        padding-right: 0;
-    }
-
+@media only screen and (max-width: 480px) {
     .call3{
         margin-top: 30%;
-    }
+    }.BottomName{
+         padding-left: 40%;
+     }
+
 }

@@ -9,33 +9,33 @@
     font-family: 'Merriweather', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 200px;
+    font-size: 20vw;
     color: rgba(255, 255, 255, 0.66);
     position: fixed;
     z-index: 1;
-    line-height: 200px;
+    line-height: 20vw;
 }
 .project2{
     margin-left: 11%;
     font-family: 'Merriweather', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 200px;
+    font-size: 20vw;
     color: rgba(255, 255, 255, 0.66);
     position: fixed;
     z-index: 1;
-    line-height: 200px;
+    line-height: 20vw;
 }
 .project1{
     margin-left: 13%;
     font-family: 'Merriweather', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 200px;
+    font-size: 20vw;
     color: rgba(255, 255, 255, 0.66);
     position: fixed;
     z-index: 1;
-    line-height: 200px;
+    line-height: 20vw;
 }
 .container{
     width: 100%;
@@ -71,13 +71,13 @@
     margin-bottom: 1%;
     z-index: 2;
     background: rgba(54, 57, 59, 0.33);
-    border-radius: 30px;
+    border-radius: 3vw;
     height: 100%;
 
 }
 .portbox12{
     background: rgba(54, 57, 59, 0.33);
-    border-radius: 30px;
+    border-radius: 3vw;
     width: 100%;
     z-index: 2;
     margin-bottom: 1%;
@@ -86,7 +86,7 @@
 }
 .portbox13{
     background: rgba(54, 57, 59, 0.33);
-    border-radius: 30px;
+    border-radius: 3vw;
     width: 100%;
     z-index: 2;
     margin-bottom: 1%;
@@ -98,10 +98,10 @@
     padding-bottom: 1%;
     font-style: normal;
     font-weight: 400;
-    font-size: 4em;
-    line-height: 83px;
+    font-size: 4vw;
+    line-height: 8.3vw;
     background-color: rgba(196, 151, 153, 0.5);;
-    border-radius: 30px;
+    border-radius: 3vw;
     color: #36393B;
     text-align: center;
 }
@@ -113,8 +113,8 @@
     font-family: 'Merriweather', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 3vw;
+    line-height: 4vw;
     color: #000000;
     padding-left: 2%;
     padding-right: 2%;
@@ -129,21 +129,21 @@
     font-family: 'Merriweather', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
-    line-height: 45px;
+    font-size: 3.5vw;
+    line-height: 4.5vw;
     z-index: 1;
 
 }
 .card1:hover .portbox1{
-    filter: blur(1px);
+    filter: blur(.1vw);
     filter: brightness(30%);
 }
 .card2:hover .portbox12{
-    filter: blur(1px);
+    filter: blur(.1vw);
     filter: brightness(30%);
 }
 .card3:hover .portbox13{
-    filter: blur(1px);
+    filter: blur(.1vw);
     filter: brightness(30%);
 }
 .card1:hover .text{
@@ -159,7 +159,7 @@
     color: #F5F5F5;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 700px){
     .container{
         flex-direction: column;
         margin-top: 15%;
@@ -199,23 +199,23 @@
         padding-top: 2%;
         margin-left: 0;
         margin-right: 0;
-        font-size: 40px;
+        font-size: 4vw;
     }
     .portbox2{
         width: 10%;
         word-wrap: break-word;
     }
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 500px) {
     .displayimg{
         width: 0;
     }
     .portbox2{
         width:15%;
-        font-size: 72px;
+        font-size: 7vw;
     }
     .portboxtext{
         width: 80%;
-        font-size: 48px;
+        font-size: 4.5vw;
     }
 }
