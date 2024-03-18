@@ -6,7 +6,7 @@
 }
 .Drop{
     margin-top: 5%;
-    background-color: rgba(134, 4, 170, 0.1);
+    background-color: rgba(134, 4, 170);
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -16,7 +16,7 @@
 }
 
 .DropSection{
-    background-color: rgba(134, 4, 170, 0.1);
+    background-color: rgba(134, 4, 170);
     position: relative;
     display: inline-block;
     z-index: 100;
@@ -28,7 +28,7 @@
     height: 40%;
 }
 .Dropbutton{
-    background: rgba(175, 208, 214, 0.5);
+    background-color: rgba(134, 4, 170);
     color: white;
     padding: 1.5vw;
     font-size: 2vw;
@@ -39,7 +39,7 @@
     width: 110%;
 }
 .Dropbutton1 {
-    background: rgba(175, 208, 214, 0.3);
+    background: rgba(175, 208, 214);
     color: #36393B;
     padding: 1.5vw;
     font-size: 2vw;
