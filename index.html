@@ -1,51 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet"  href="CSS/ConstantStyleSheet.css">
-    <link rel="stylesheet"  href="CSS/LandingCSS.css">
-
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="Stylesheets/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+    <title>Welcome - Sophie Dunfield</title>
 </head>
+
+<style>
+    .draggable { width: 250px; height: 125px; padding: 5px; float: left; font-size: 0.9em; }
+    .ui-widget-header p, .ui-widget-content p { margin: 0; }
+</style>
+<script>
+    $( function() {
+        $( ".draggable" ).draggable({ grid: [ 4, 4 ] });
+    } );
+
+    function minimize(id, id2){
+        const x = document.getElementById(id);
+        const y = document.getElementById(id2);
+        if (y.style.display === "none") {
+            y.style.display = "block";
+            x.style.height = "15vw"
+            x.style.width = "10vw"
+        } else {
+            y.style.display = "none";
+            x.style.height = "3vw"
+            x.style.width = "10vw"
+            x.style.height= "3vw"
+        }
+    }
+</script>
 <body>
-    <div class="BoxLong1">     
-        <div class="navbar">
-            <a class="links" href="index.html">
-                Home   
-            </a>
-            <a class="links" href="Webpages/PortfolioPage.html">
-                Programming
-            </a>
-            <a class="links" href="Webpages/Contact.html">
-                About me
-            </a>
-            <hr>
-        </div>
-        <img class="logo" src="Images/logo.png"
-            alt="Logo">
-    </div>
 
-<div class="box2">
-    <div class="call2">
-        SOPHIE
-        </div>
-    <div class="call">
-        Hi, my Name is
-    </div>
-    <div class="call3">
-        I write backend programs.
-    </div>
-    <div class="BoxLong2">
+<div class="draggable"> <div class="Title">Welcome</div> </div >
+<div class="draggable"> <div class="subtitle">Click and drag items around the screen</div></div>
+<div class="draggable"> <div class="subtitle">Sorry, upgrade is in progress =)</div></div>
 
-    </div>
-</div>
+<!--<div class="draggable ui-widget-content" id="intro">-->
+<!--    <button class="sideBar_button" type="button" onclick='minimize("intro", "intro-body")'> + </button>-->
+<!--    Introduction-->
+<!--    <div id="intro-body">-->
+<!--    </div>-->
+<!--</div>-->
 
-    <footer>
-        <div class="BottomName">
-            Sophie Dunfield 2023
-        </div>
-    </footer>
 </body>
 </html>
