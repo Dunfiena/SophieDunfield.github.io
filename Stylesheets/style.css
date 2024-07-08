@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:
+            linear-gradient(-90deg, rgba(0,0,0,.05) 1px, transparent 1px),
+            linear-gradient(rgba(0,0,0,.05) 1px, transparent 1px),
+            linear-gradient(-90deg, rgba(0, 0, 0, .04) 1px, transparent 1px),
+            linear-gradient(rgba(0,0,0,.04) 1px, transparent 1px),
+            linear-gradient(transparent 3px, #f2f2f2 3px, #f2f2f2 78px, transparent 78px),
+            linear-gradient(-90deg, #aaa 1px, transparent 1px),
+            linear-gradient(-90deg, transparent 3px, #f2f2f2 3px, #f2f2f2 78px, transparent 78px),
+            linear-gradient(#aaa 1px, transparent 1px),
+            #f2f2f2;
+    background-size:
+            4px 4px,
+            4px 4px,
+            80px 80px,
+            80px 80px,
+            80px 80px,
+            80px 80px,
+            80px 80px,
+            80px 80px;
+}
+.Title {
+    font-family: "Merriweather Black", serif;
+    color: rgba(118, 2, 234, 0.98);
+    font-size: 8vw;
+}
+.subtitle {
+    font-family: "Merriweather Black", serif;
+    color: rgb(223, 72, 246);
+    font-size: 2vw;
+    margin-top: 8vw;
+    width: 20vw;
+}
+.subtitle-2 {
+    font-family: "Merriweather Black", serif;
+    color: rgb(180, 10, 50);
+    font-size: 6vw;
+    margin-top: 15vw;
+    width: 50vw;
+}
+.ui-widget-content {
+    margin-top: 25%;
+    margin-left: 10%;
+}
